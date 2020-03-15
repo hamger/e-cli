@@ -1,0 +1,56 @@
+{
+    "name": "eff-cli",
+    "version": "1.0.0",
+    "description": "Efficiency is life.",
+    "scripts": {
+        "tonpm": "npm version patch && npm publish"
+    },
+    "bin": {
+        "e": "bin/e.js",
+        "e-count": "bin/e-count.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hamger/eff-cli.git"
+    },
+    "keywords": [
+        "hanger",
+        "eff-cli",
+        "cli"
+    ],
+    "author": "Hanger",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hamger/eff-cli/issues"
+    },
+    "homepage": "https://github.com/hamger/eff-cli",
+    "dependencies": {
+        "async": "^2.4.0",
+        "chalk": "^2.1.0",
+        "commander": "^2.9.0",
+        "consolidate": "^0.14.0",
+        "download-git-repo": "^1.0.1",
+        "handlebars": "^4.1.2",
+        "inquirer": "^3.3.0",
+        "metalsmith": "^2.1.0",
+        "minimatch": "^3.0.0",
+        "multimatch": "^2.1.0",
+        "ora": "^1.3.0",
+        "read-metadata": "^1.0.0",
+        "request": "^2.88.0",
+        "rimraf": "^2.5.0",
+        "tildify": "^1.2.0",
+        "user-home": "^2.0.0",
+        "validate-npm-package-name": "^3.0.0"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "eslint": "^3.19.0",
+        "eslint-plugin-vue-libs": "^1.2.1",
+        "execa": "^0.8.0",
+        "mocha": "^6.1.3"
+    },
+    "engines": {
+        "node": ">=6.0.0"
+    }
+}
